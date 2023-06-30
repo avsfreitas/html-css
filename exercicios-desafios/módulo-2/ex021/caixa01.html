@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: aqua;
+        }
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: inset 2px 1px 14px 5px rgb(233, 131, 131);
+        }
+        nav{
+            background-color: rgb(156, 92, 92);
+            padding: 2px;
+            box-shadow: 4px 10px 10px black;
+        }
+        nav > a{
+            text-decoration: none;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            margin-right: 50px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: blueviolet;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 40px;
+        }
+        article{
+            background-color: blanchedalmond;
+            padding: 3px;
+        }
+        article > aside{
+            background-color: azure;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 100px;
+            margin: 10px;
+        }
+        footer > a{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;   
+            margin: 10px;   
+            background-color: black;
+            border-radius:10%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            oi
+            <article>
+                <h2>Notícias</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum recusandae dolorem ea et, quas quo animi nemo est at non dolor accusantium reprehenderit obcaecati. Earum dicta dolor laudantium perferendis neque?</p>
+                <aside>
+                    <p>IAE</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis laborum qui aliquam! Molestiae ut repellendus, ipsum mollitia accusantium nostrum fugiat adipisci est qui sapiente libero unde nisi dolorum voluptas provident.</h1>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
