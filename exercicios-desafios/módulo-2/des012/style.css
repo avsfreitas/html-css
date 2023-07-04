@@ -3,19 +3,96 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
+}
+
+:root {
+    --fontetitulo: Verdana, Geneva, Tahoma, sans-serif;
+    --fonteautor: 'Times New Roman', Times, serif;
+    --fonteescrita: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 header {
     margin: auto;
     padding: 40px;
     background-color: black;
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
-#container {
-    background-image: url(imagens/background001.jpg);
-    background-size: 100px;
-    background-position: left center;
-    
+header h1 {
+    font-family: var(--fontetitulo);
+    font-size: 3em;
+}
+
+header p {
+    font-family: var(--fonteautor);
+}
+
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonteescrita);
+    font-size: 2em;
+}
+
+section > p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+section.fundobranco {
+    background-color: rgb(230, 216, 216);
+    color: black;
+}
+
+section.imagem {
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#imagem1 {
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+}
+
+section#imagem2 {
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+footer > p {
+    padding: 20px;
 }
