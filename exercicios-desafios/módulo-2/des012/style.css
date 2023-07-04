@@ -1,0 +1,21 @@
+@charset "UtF-8" ;
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    margin: auto;
+    padding: 40px;
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+}
+
+#container {
+    background-image: url(imagens/background001.jpg);
+    background-size: 100px;
+    background-position: left center;
+    
+}
