@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso do iframe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Faça uma escolha!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo maiores, ducimus ipsum perspiciatis earum eveniet dignissimos maxime voluptatum quas qui nobis aspernatur impedit et laborum tempore esse ratione voluptate! Commodi?</p>
+    <ul>
+        <li><a href="pagsextra/pag1.html" target="frame">Primeira página</a></li><!--target é usado para abrir no frame especifico-->
+        <li><a href="pagsextra/pag2.html" target="frame">Segunda página</a></li>
+        <li><a href="pagsextra/pag3.html" target="frame">Terceira página</a></li>
+    </ul>
+    
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam repellat laborum accusantium repellendus, magnam fugit officia impedit hic delectus deserunt consequuntur quae, facilis, perspiciatis quidem expedita accusamus quasi ab ex.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, possimus illum dicta fugiat magni dignissimos modi corrupti aliquid porro dolorum. Fuga neque delectus ipsum odio! Fugit, ut accusamus. Veniam, distinctio!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nesciunt molestias quisquam, aperiam rem architecto odio iste, rerum deleniti aliquid facilis tenetur, eligendi perferendis. Aspernatur distinctio dicta itaque dignissimos modi.
+    </p>
+    <!--iframe precisa de name, para usar a linkagem-->
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad aperiam eveniet facere harum natus aliquid minus, dolore quia, eligendi, ex quisquam laudantium saepe placeat nisi sit exercitationem? Dolore, iure est!</p><img src='imagens/paisagem-p.png'>">
+        <p>Infelizmente o seu navegador não é compátivel com isso.</p>
+    </iframe>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit doloremque eum corporis possimus quasi tempora ipsa sapiente, enim mollitia optio sed asperiores adipisci alias ea id nostrum, nobis quia! Ratione?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptatum sit tenetur unde vero nesciunt animi accusantium maxime quis sint blanditiis eum fuga magni, ipsam ratione nam consequatur, adipisci necessitatibus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, numquam suscipit fugit optio qui incidunt expedita fugiat, veniam quis, quaerat harum. Repellat, temporibus impedit? Tempore harum sapiente ducimus nostrum aperiam?
+    </p>
+</body>
+</html>
