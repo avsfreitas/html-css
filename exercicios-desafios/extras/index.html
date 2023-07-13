@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Loja Virtual</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Minha Loja Virtual</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#products">Produtos</a></li>
+        <li><a href="#cart">Carrinho</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Bem-vindo à Minha Loja Virtual</h2>
+      <p>Encontre os melhores produtos e faça suas compras com facilidade.</p>
+      <a href="#products" class="btn">Ver produtos</a>
+    </div>
+  </section>
+
+  <section id="products" class="products">
+    <h2>Produtos</h2>
+    <div class="product-list">
+      <div class="product">
+        <img src="product1.jpg" alt="Produto 1">
+        <h3>Produto 1</h3>
+        <p>Descrição do produto 1.</p>
+        <span class="price">R$ 99.99</span>
+        <button class="add-to-cart">Adicionar ao carrinho</button>
+      </div>
+      <div class="product">
+        <img src="product2.jpg" alt="Produto 2">
+        <h3>Produto 2</h3>
+        <p>Descrição do produto 2.</p>
+        <span class="price">R$ 149.99</span>
+        <button class="add-to-cart">Adicionar ao carrinho</button>
+      </div>
+      <div class="product">
+        <img src="product3.jpg" alt="Produto 3">
+        <h3>Produto 3</h3>
+        <p>Descrição do produto 3.</p>
+        <span class="price">R$ 199.99</span>
+        <button class="add-to-cart">Adicionar ao carrinho</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="cart" class="cart">
+    <h2>Carrinho</h2>
+    <div class="cart-items">
+      <div class="cart-item">
+        <img src="product1.jpg" alt="Produto 1">
+        <h3>Produto 1</h3>
+        <span class="price">R$ 99.99</span>
+        <button class="remove-from-cart">Remover</button>
+      </div>
+      <!-- Outros itens do carrinho -->
+    </div>
+    <div class="cart-total">
+      <span>Total:</span>
+      <span class="total-price">R$ 99.99</span>
+    </div>
+    <button class="checkout">Finalizar Compra</button>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contato</h2>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Nome">
+      <input type="email" id="email" placeholder="Email">
+      <textarea id="message" placeholder="Mensagem"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Minha Loja Virtual. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
